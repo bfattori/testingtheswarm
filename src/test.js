@@ -7,5 +7,5 @@ Test.prototype.foo = function() {
 };
 
 Test.prototype.failsInFirefox = function() {
-    return !/firefox/.test(navigator.userAgent.toLowerCase());
+    return /firefox/.test(navigator.userAgent.toLowerCase());
 };
