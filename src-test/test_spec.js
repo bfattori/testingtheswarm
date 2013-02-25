@@ -18,8 +18,4 @@ describe("Testing the Swarm", function() {
         expect(myTest.bar).toEqual("bar");
     });
 
-    it("Should not fail in firefox", function() {
-        var myTest = new Test();
-        expect(myTest.failsInFirefox()).toBeTruthy();
-    });
 });
